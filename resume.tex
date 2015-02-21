@@ -1,0 +1,147 @@
+\documentclass[10pt]{article}
+\usepackage{hyperref} %to create the url
+\usepackage{color} %to add color
+\usepackage[normalem]{ulem} %for underlining
+\usepackage{enumitem}
+
+%set margins
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+
+%shorten vertical spacing between sections
+\usepackage[compact]{titlesec}
+\titlespacing{\section}{0pt}{*0}{*0}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titlespacing{\item}{0pt}{*0}{*0}
+
+\begin{document}
+\pagenumbering{gobble} %no page number
+
+\title{\vspace{-10ex} %move up page
+	\color{red}\Huge\textsc{David Mattia} %large, red, small caps
+	\vspace{-1ex}} %remove space after
+\author{\url{www.david-mattia.com}\\ 
+	dmattia@nd.edu\\
+	(612)437-8532 \vspace{-3ex}}
+\date{} %no date wanted
+\maketitle
+
+\noindent\makebox[\linewidth]{\rule{.9\paperwidth}{0.4pt}} %line divider
+
+\begin{minipage}[t]{0.35\textwidth}   %left column
+
+	\section*{\uuline{Education \hfill}} 
+		\subsection*{University of Notre Dame}
+		{Computer Science Major\\
+		 Class of 2017\\
+		 GPA: 3.96/4.0}
+		\subsection*{Lakeville South High School}
+		{Class of 2013}
+
+	\section*{\uuline{Technical Skills \hfill}}
+		\subsection*{Proficient in:}
+		{C/C++, Java, HTML/CSS}
+		\subsection*{Familiar with:}
+		{Python, JavaScript, Swift, Obj-C, git, UNIX scripting}
+
+	\section*{\uuline{Relevant Coursework \hfill}}
+		\subsection*{Freshman Year:}
+		\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+			\item {Introduction to Engineering \hfill \emph{A}}
+		\end{itemize}
+		\subsection*{Sophomore Year:}
+		\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+			\item Fundamentals of Computing I \hfill \emph{A} 
+			\item Case Studies in Computer-Based Entrepreneurship \hfill \emph{A}
+			\item Discrete Mathematics \hfill \emph{A}
+		\end{itemize}
+			\subsubsection*{Currently Taking:}
+			\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+				\item Logic Design
+				\item Fundamentals of Computing II
+				\item Basic Unix for Engineers
+				\item Research with Dr. Poellabauer
+				\item Introduction to Probability
+			\end{itemize}
+
+	\section*{\uuline{Work Experience \hfill}}
+		\subsection*{Weight Trainer}
+		\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+			\item Coached highschool sports teams at Lakeville South High School for two years
+			\item Created work out programs for eight different sports groups focusing on specific muscle groups they required
+			\item Managed weight room activities including weight training, plyometrics, and conditioning
+		\end{itemize}
+
+	\section*{\uuline{Honors \hfill}}
+		{IrishHacks 3rd Place\\
+		Suzanne and Walter Scott Scholar\\
+		Engineering Scholars Programm\\
+		National Merit Scholar Commended\\
+		AP Scholar with Distinction}
+
+\end{minipage}
+\hfill %push right column as far right as can go
+\begin{minipage}[t]{0.57\textwidth} %right column
+
+	\section*{\uuline{Projects \hfill}}
+		\subsection*{Foober \hfill \small\emph{Sept 26-28, 2014}}
+		\begin{itemize}[noitemsep,nolistsep]
+			\item Created a native Android application implementing Parse databases and SMS Manager
+			\item Handled backend of the database and created many UI elements
+		\end{itemize}
+
+		\subsection*{Web Design \hfill \small\emph{Jan 2011, present}}
+		\begin{itemize}[noitemsep,nolistsep]
+			\item Designed and Created \mbox{\url{www.david-mattia.com}}, \mbox{\url{www.david-mattia.com/ReillyWeekend}},
+				\mbox{\url{www.hiddenoakscottageretreat.com}}, and have worked on parts of multiple other sites
+			\item Familiar with multiple front-end frameworks like bootstrap and foundation
+		\end{itemize}
+
+		\subsection*{Concussion Research \hfill \small\emph{December 2013, present}}
+		\begin{itemize}[noitemsep,nolistsep]
+			\item Analyzed speech analysis data from over 200 test subjects
+			\item Determined the most important factors of speech in determining concussions based on data as well as the tests that showed to be the most useful
+		\end{itemize}
+
+		\subsection*{Chiellini - A Pacman Varient \hfill \small\emph{Nov 2014, Dec 2014}}
+		\begin{itemize}[noitemsep,nolistsep]
+			\item Recreated the classic game Pacman in C with the Xlib library for graphics
+		\end{itemize}
+
+		\subsection*{Sudoku Algorithm Testing \hfill \small\emph{Feb 2014, May 2014}}
+		\begin{itemize}[noitemsep,nolistsep]
+			\item Developed and tested three unique algorithms on their effectiveness at solving sudoku puzzles
+			\item Used multiple criteria for effectiveness such as time complexity, correctness with different types of puzzles, space complexity, and ease of implementation
+		\end{itemize}
+
+		\subsection*{Calculator Programming \hfill \small\emph{Sept 2009, June 2013}}
+		\begin{itemize}[noitemsep,nolistsep]
+			\item Created over 1,000 functional math programs for TI83/84s
+			\item Launched an app to compute many common problems on the ACT using Z80 Assembly
+		\end{itemize}
+
+	\section*{\uuline{Volunteering \hfill}}
+		\subsection*{Blood Drive Coordinator \hfill \small\emph{June 2012, present}}
+		\begin{itemize}[noitemsep,nolistsep]
+			\item Coordinated eight blood drives through the American Red Cross
+			\item Contacted potential donors, reserved space, advertised, and organized day of activities
+			\item Member and active volunteer of the Red Cross Club of Notre Dame
+		\end{itemize}
+		
+		\subsection*{Muscular Dystrophy Camp Counselor\\ \strut\hfill \small\emph{June 2013, June 2014}}
+		\begin{itemize}[noitemsep,nolistsep]
+			\item Cared for teenage camper with Duchenne muscular dystrophy
+			\item Attended to all daily responsibilities and activities
+		\end{itemize}
+
+\end{minipage}
+
+%create the footer
+\vfill
+\centering Resume created using \LaTeX
+
+\end{document}
